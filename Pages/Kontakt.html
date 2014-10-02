@@ -2,68 +2,78 @@
 <html>
     
     <head>
-          <meta charset="utf-8">
+         <meta charset="utf-8">
         
         <title>Kontakt</title>
-        
+         <link rel="stylesheet" href="../css/pics/Style.css"/>
     </head>
     
-    <h1>Kontakt</h1>
-    
     <body>
+        <div id="container">
+        <div id="header">
+            <h1>Kontakt</h1>
+        </div>
         
-        <ul>
-    
-     <li>
-    <a href="Presentation.html"> Presentation </a>
-    </li>
+           
+        <div id="navigation">  
+            <ul>
+            
+                 <li>
+                <a href="Presentation.html"> Presentation </a>
+                </li>
+                    
+                <li>
+                <a href="Laborationer.html"> Laborationer </a>
+                </li>
+                
+                <li>
+                <a href="Kontakt.html"> Kontakt </a>
+                </li>
+                
+                
+                 <li>
+                <a href="../index.html"> Startsida </a>
+                </li>
+        </div>         
+        <div id="content">   
+            </ul>
         
-    <li>
-    <a href="Laborationer.html"> Laborationer </a>
-    </li>
-    
-    <li>
-    <a href="Kontakt.html"> Kontakt </a>
-    </li>
+            <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            
+                <fieldset>
+                <legend>Kontakta mig!</legend>
+                
+                Vad gäller det?:<select name="Vad gäller det?:">
+                <option value="Question">Fråga</option>
+                <option value="crap">Vad som helst</option>
+                </select> <br>
+                                                
+                Rubrik:<input type="Text" name="Title:"> <br>
+                
+                Message: 
+                <textarea rows="6" cols="35" name="textarea"></textarea>
+                    
+                <input type="checkbox" name="EmailButton" id="Email" value="Email">
+                <label for="Email"> Email </label> 
+                
+                <input type="checkbox" name="Flaskpost" id="Flaskpost" value="Flaskpost">
+                <label for="Flaskpost"> Flaskpost </label> 
+                
+               
+                                        
+                <input type="submit">
+            
+                </fieldset>
+              
+             </form>
+             </div>
         
-        
-     <li>
-    <a href="../index.html"> Startsida </a>
-    </li>
-        
-    </ul>
-    
-<form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-
-<fieldset style="width: 300px":"height:400px">
-<legend>Kontakta mig!</legend>
-
-<br> Vad gäller det?:<select name="Vad gäller det?:">
-<option value="Question">Fråga</option>
-<option value="crap">Vad som helst</option>
-</select> </br>
-                                
-<br>Rubrik:<input type="Text" name="Title:"> </br>
-
-<br>Message:</br>
-<textarea rows="6" cols="35"></textarea>
-    
-    
-<legend>Kontakta mig genom:</legend>
-                      
-<input type="checkbox" name="EmailButton" value="Email" />
-<label for="Email">Email</label> 
-
-<input type="checkbox" name="Flaskpost" value="Flaskpost" />
-<label for="Flaskpostr">Flaskpost</label> 
-                        
-<input type="submit">
-
-    
-</fieldset>
-  
-  </form>
-  
+             <div id="footer">
+                         <p>Ansvarig för materialet på denna sida är Anton Cederblad</p>
+             </div>
+            
+        </div> 
+       
     </body>
 
     
