@@ -1,0 +1,38 @@
+
+#navipress{
+    display:none;
+}
+
+#film{
+    display:none;
+}
+
+#blogginl{
+    border:1px solid black;
+}
+
+a:link:after, a:visited:after { 
+    content:" [" attr(href) "] "; 
+    
+}
+    
+body{
+    color:black;
+    background-color:white;
+    font-family:Helvetica, arial, sans-serif;
+}
+p {
+    font-family:Helvetica, arial, sans-serif;
+    color:black;
+    
+}
+
+h1, h2, h3{
+    font-family:helvetica, sans-serif;
+    font-style:italic;
+    color:black;
+}
+div{
+    font-family:Helvetica, arial, sans-serif;
+    color:black;
+}
