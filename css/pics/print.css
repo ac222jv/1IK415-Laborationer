@@ -1,3 +1,13 @@
+#container{
+    width:100%;
+    
+}
+
+
+#contentpress{
+    width:100%;
+    border:none;
+}
 
 #navipress{
     display:none;
@@ -11,15 +21,19 @@
     border:1px solid black;
 }
 
-a:link:after, a:visited:after { 
-    content:" [" attr(href) "] "; 
-    
+
+a:after {
+content:" (" attr(href) ") ";
 }
+
+
+
     
 body{
     color:black;
     background-color:white;
     font-family:Helvetica, arial, sans-serif;
+    font-size:14px;
 }
 p {
     font-family:Helvetica, arial, sans-serif;
@@ -36,3 +50,5 @@ div{
     font-family:Helvetica, arial, sans-serif;
     color:black;
 }
+
+
