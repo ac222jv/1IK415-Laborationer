@@ -51,6 +51,10 @@
     padding:15px; 
 }
 
+#loggo2{
+    width:100%;
+}
+
 .sidemenu{
     margin-left:0px;
     float:left;

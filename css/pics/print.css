@@ -1,8 +1,6 @@
 #container{
     width:100%;
-    
 }
-
 
 #contentpress{
     width:100%;
@@ -33,7 +31,7 @@ body{
     color:black;
     background-color:white;
     font-family:Helvetica, arial, sans-serif;
-    font-size:14px;
+    font-size:10px;
 }
 p {
     font-family:Helvetica, arial, sans-serif;
@@ -52,3 +50,12 @@ div{
 }
 
 
+#MinBild{
+    width:20%;
+    height:30%;
+}
+
+#apa {
+     width:40%;
+    height:40%;
+}
