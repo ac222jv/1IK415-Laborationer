@@ -1,0 +1,168 @@
+header {
+      background-color:rgba(0, 0, 0, 0.8);
+     color:white;
+     text-align:center;
+     padding:10px;
+}
+
+#container{
+    width:100%;
+    margin:0 auto;
+    max-width:960px;
+    height:100%;
+    min-height:1200px;
+}
+
+nav{
+    line-height:30px;
+    background-color:#505050;
+    height:300px;
+    width:190px;
+    float:left;
+}    
+
+main{
+    float:left;
+    width:768px;
+    border:1px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color:rgba(0, 0, 0, 0.7);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:15px; 
+}
+
+article {
+    border:1px solid black;
+    width:400px;
+    height:250px;
+    background-color:white;
+}
+article p{
+    color:black;
+}
+article h3{
+    color:black;
+}
+.sidemenu{
+    margin-left:0px;
+    float:left;
+    width:150px;
+}
+
+ul.sidemenu{
+    float:left;
+    margin-left:0px;
+    display:block;
+}
+
+ul.sidemenu a {
+    display: block;
+    font-size:20px;
+    line-height: 50px;
+    border: 1px solid black;
+    margin-left:0px;
+    padding-top:10px;
+    background:url(../../Pics/sprite.png) no-repeat;
+    
+}
+
+ul.sidemenu li{
+    list-style-type:none;
+    margin-left:0px;
+    
+}
+
+a {
+    text-decoration:none;
+}
+
+ul.sidemenu a:visited {
+    color:black;
+    
+}
+
+ul.sidemenu a:hover {
+   background-color:black;
+   color:white;
+}
+
+
+.clear {
+    clear:both;
+    float:none;
+}
+
+.apa{
+    height:200px;
+    width:350px;
+    float:right;
+}
+.Anton{
+    float:right;
+    height:400px;
+    width:200px;
+    border:2px solid gray;
+}
+
+section{
+    border:2px solid white;
+}
+
+body{
+    color:white;
+}
+p {
+    font-family:Helvetica, arial, sans-serif;
+    color:white;
+    
+}
+
+h1, h2, h3{
+    font-family:helvetica;
+    font-style:italic;
+    color:white;
+}
+
+/*bakgrund*/
+#html {
+     background: url(../../Pics/bakgrundsbild.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#Home{
+    background-position:110px -28px;
+}
+#Home:hover{
+    background-position:110px 22px;
+}
+
+#Lab{
+    background-position:110px -120px;
+}
+#Lab:hover{
+    background-position:110px -74px;
+}
+
+#Contakt{
+    background-position:110px -315px;
+}
+#Contakt:hover{
+    background-position:110px -268px;
+}
+
+#Pres{
+    background-position:110px -217px;
+}
+#Pres:hover{
+    background-position:110px -169px;
+}
+
+

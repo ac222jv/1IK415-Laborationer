@@ -1,0 +1,63 @@
+
+#contentpress{
+    width:100%;
+}
+#content{
+    width:100%;
+}
+#container{
+    width:100%;
+}
+
+#navipress{
+    width:100%;
+}
+
+.sidemenu{
+    width:90%;
+}
+.sidemenu li{
+    text-align:center;
+}
+
+#MinBild{
+    width:50%;
+    height:60%;
+}
+
+#head img {
+    max-width:100%;
+}
+
+#apa {
+    width:50%;
+}
+
+ul.sidemenu a {
+    background:none;
+    width:90%;
+}
+
+img {
+    max-width:100%;
+}
+
+#formular{
+    width:100%;
+    height:100%;
+}
+
+#tabell{
+    width:100%;
+}
+
+input{
+    padding:15px;
+    margin:10px;
+}
+
+input[type=checkbox]{
+    -webkit-transform: scale(2);
+}
+
+
